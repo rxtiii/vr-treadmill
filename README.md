@@ -84,6 +84,26 @@ You can't see the treadmill in VR.
 | Forward / Backward key | Keys used in keyboard mode |
 | Stop treadmill mouse moving the cursor | Leave on unless you want it to act as a mouse too |
 
+### Recommended preset (tested on a real build)
+
+These settings have been tested on a manual treadmill with the mouse mounted sideways to the belt.
+They're a good starting point:
+
+| Setting | Value |
+|---|---|
+| Output | Controller left stick forward |
+| Movement axis | Horizontal (left/right) |
+| Mode | Any direction = forward |
+| Push stick further the faster you walk | On |
+| Sensitivity | 15 |
+| Stop delay (ms) | 250 |
+| Stop treadmill mouse moving the cursor / clicking | On |
+| Enabled | On |
+
+If your mouse points along the belt instead of sideways, switch **Movement axis** to
+**Vertical**. If walking stutters, raise **Stop delay**, and if you start "walking" while
+standing still, raise **Sensitivity**.
+
 ### Troubleshooting
 - **Game ignores W:** if the game runs as administrator, run `VRTreadmill.exe` as administrator too.
 - **Game ignores controller mode:** some SteamVR-native games only read VR motion controllers.
