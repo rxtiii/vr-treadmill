@@ -6,7 +6,8 @@ controller's left stick forward**, while your normal mouse/trackpad keeps workin
 
 - Picks out **one specific mouse** (the treadmill one) and leaves every other mouse alone
 - Blocks the treadmill mouse from moving your cursor or clicking
-- Output: keyboard key (W by default) **or** virtual Xbox 360 left stick
+- Output: keyboard key (W by default) **or** virtual Xbox 360 left stick, where walking
+  faster pushes the stick further (calibrate once for your treadmill)
 - Optional forward/backward mode (W/S, or stick forward/back)
 - Simple window, settings save automatically, remembers the treadmill mouse between sessions
 
@@ -67,8 +68,10 @@ You can't see the treadmill in VR.
    - **Keyboard key (W)**: holds W while you walk.
    - **Controller left stick forward**: virtual Xbox controller. The game must support an
      Xbox controller.
-4. Walk. The **Live** bar fills and shows *Holding W* or *Stick fwd 70%*.
-5. Minimise the window (don't close it) and start your game.
+4. Controller mode: click **Calibrate**, walk at your fastest pace for 5 seconds, and the
+   app learns your treadmill's top speed. Walking slower then moves you slower in game.
+5. Walk. The **Live** bar fills and shows *Holding W* or *Stick fwd 70%*.
+6. Minimise the window (don't close it) and start your game.
 
 ### Settings
 
@@ -78,7 +81,8 @@ You can't see the treadmill in VR.
 | Movement axis | Which direction of mouse movement counts (match how you mounted it) |
 | Mode | Any direction = forward, or one way forward / other way backward |
 | Swap forward/backward | Flip it if backward mode is the wrong way round |
-| Push stick further the faster you walk | Controller mode only, experimental: may stay at full stick on most treadmills |
+| Push stick further the faster you walk | Controller mode: walk slower = move slower. Off = always full stick |
+| Top speed / Calibrate | The belt speed that gives full stick. Click Calibrate and walk at full pace to set it |
 | Sensitivity | Movement needed to start walking. Raise it if you "walk" by yourself |
 | Stop delay (ms) | How long to keep walking after the belt stops. Raise it if walking stutters |
 | Forward / Backward key | Keys used in keyboard mode |
@@ -95,6 +99,7 @@ They're a good starting point:
 | Movement axis | Horizontal (left/right) |
 | Mode | Any direction = forward |
 | Push stick further the faster you walk | On |
+| Top speed | Click **Calibrate** (depends on your treadmill) |
 | Sensitivity | 15 |
 | Stop delay (ms) | 250 |
 | Stop treadmill mouse moving the cursor / clicking | On |
