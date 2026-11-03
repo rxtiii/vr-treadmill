@@ -6,8 +6,7 @@ controller's left stick forward**, while your normal mouse/trackpad keeps workin
 
 - Picks out **one specific mouse** (the treadmill one) and leaves every other mouse alone
 - Blocks the treadmill mouse from moving your cursor or clicking
-- Output: keyboard key (W by default) **or** virtual Xbox 360 left stick, with optional
-  speed-based stick push (walk slowly = move slowly)
+- Output: keyboard key (W by default) **or** virtual Xbox 360 left stick
 - Optional forward/backward mode (W/S, or stick forward/back)
 - Simple window, settings save automatically, remembers the treadmill mouse between sessions
 
@@ -79,7 +78,7 @@ You can't see the treadmill in VR.
 | Movement axis | Which direction of mouse movement counts (match how you mounted it) |
 | Mode | Any direction = forward, or one way forward / other way backward |
 | Swap forward/backward | Flip it if backward mode is the wrong way round |
-| Push stick further the faster you walk | Controller mode: analogue speed instead of always full stick |
+| Push stick further the faster you walk | Controller mode only, experimental: may stay at full stick on most treadmills |
 | Sensitivity | Movement needed to start walking. Raise it if you "walk" by yourself |
 | Stop delay (ms) | How long to keep walking after the belt stops. Raise it if walking stutters |
 | Forward / Backward key | Keys used in keyboard mode |
