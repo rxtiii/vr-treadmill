@@ -1,0 +1,19 @@
+{
+	"jsonid": "vrbinding",
+	"controller_type": "vrtreadmill",
+	"name": "VR Treadmill legacy binding",
+	"description": "Treadmill walking acts as the left controller's touchpad/stick in older games",
+	"bindings": {
+		"/actions/legacy": {
+			"sources": [
+				{
+					"path": "/user/treadmill/input/joystick",
+					"mode": "joystick",
+					"inputs": {
+						"position": { "output": "/actions/legacy/in/left_axis0_value" }
+					}
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"jsonid": "input_profile",
+	"controller_type": "vrtreadmill",
+	"device_class": "TrackedDeviceClass_Controller",
+	"input_bindingui_mode": "single_device",
+	"legacy_binding": "{00vrtreadmill}/input/legacy_binding_vrtreadmill.json",
+	"input_source": {
+		"/input/joystick": {
+			"type": "joystick",
+			"order": 1,
+			"click": false,
+			"touch": false
+		}
+	},
+	"default_bindings": []
+}
